@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dta list</title>
+</head>
+<body>
+    <h1 align="center">destination form</h1>
+    <form action="success.html" method="post">
+        <table border="1" cellpadding="5" cellspacing="10" align="center" width="50%">
+            <tr>
+                <td>
+                    <label for="source">source</label>
+                    <input type="text" id="source" name="source" required list="cities">
+                </td>
+                <td>
+                    <label for="destination">destination</label>
+                    <input type="text" id="destination" name="destination" required list="cities">
+                </td>
+                <td>
+                    <label for="journey_date">journey_date</label>
+                    <input type="date" id="journey_date" name="journey_date" required id="cities">
+                </td>
+                <td>
+                <label for="">bus type</label>
+            
+                    <input type="radio" id="volvo" name="volvo">volvo
+            
+            
+                    <input type="radio" id="AC" name="AC">AC
+            
+            
+                    <input type="radio" id="non ac" name="non ac">non   ac
+            
+                 
+                    <input type="radio" id="express" name="express">express
+            
+                </td>
+                <td>
+                    <label for="">select seats</label>
+                    <select> 
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">4</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </td>
+                <td>
+                    <button type="submit">submit</button>
+                    <button type="reset">clear all</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+    <datalist id="cities">
+        <option value="bhavngar">
+        <option value="ahmedabad">
+        <option value="rajkot">
+        <option value="delhi">
+        <option value="surat">
+        <option value="jamnagar">
+        <option value="goa">
+        <option value="rajula">
+        <option value="mahuva">
+
+
+
+
+
+    </datalist>
+    
+</body>
+</html>
